@@ -1,4 +1,4 @@
-# Colour.Ninja
+# Colour.Ninja [![Netlify Status](https://api.netlify.com/api/v1/badges/dc8e178f-1da4-42d3-a4b8-ffc12587bcb3/deploy-status)](https://app.netlify.com/sites/boring-murdock-04f9ae/deploys)
 
 Colour Ninja is a plain color transition tool. It calculates the transition colors between two picked colors. Developed with ReactJS and Styled Components as a tool to help designers.
 
