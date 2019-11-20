@@ -1,5 +1,3 @@
-// https://stackoverflow.com/questions/1484506/random-color-generator <3
-
 const letters = '0123456789ABCDEF';
 
 const randomHexColor = () => {

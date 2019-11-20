@@ -1,5 +1,3 @@
-// https://stackoverflow.com/questions/4726344/how-do-i-change-text-color-determined-by-the-background-color <3
-
 const getRGBComponents = (color) => {
 
 	let r = color.substring(1, 3);

@@ -8,18 +8,18 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "ninja-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "ninja-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#333333",
+  "theme_color": "#ffffff",
   "background_color": "#ffffff"
 }
