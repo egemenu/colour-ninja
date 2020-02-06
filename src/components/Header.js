@@ -1,5 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Atom } from 'styled-icons/boxicons-regular/Atom';
+
+
 
 class Header extends React.Component {
 
@@ -13,6 +16,14 @@ class Header extends React.Component {
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
+		`
+
+		const AtomIcon = styled(Atom)`
+			color: #333;
+			cursor: pointer;
+			&:hover {
+				color: #555;	
+			}
 		`
 
 		const MainTitle = styled.h1`
@@ -45,7 +56,7 @@ class Header extends React.Component {
 				<MainTitle startColor={this.props.startColor} endColor={this.props.endColor}>
 					<a href="https://colour.ninja">Colour.Ninja</a>
 				</MainTitle>
-				<RandomButton onClick={this.handleRandomColors}>Random</RandomButton>
+				<AtomIcon size="30" title="Atom Link" onClick={this.handleRandomColors} />
 			</Header>
 		)
 	}
