@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Atom } from 'styled-icons/boxicons-regular/Atom';
+import { RefreshCcw } from '@styled-icons/feather/RefreshCcw';
 
 
 
@@ -18,11 +18,13 @@ class Header extends React.Component {
 			align-items: center;
 		`
 
-		const AtomIcon = styled(Atom)`
+		const RefreshIcon = styled(RefreshCcw)`
 			color: #333;
 			cursor: pointer;
+			transition: transform .3s ease;
 			&:hover {
-				color: #555;	
+				color: #555;
+				transform: rotate(360deg);
 			}
 		`
 
@@ -42,21 +44,12 @@ class Header extends React.Component {
 			}
 		`
 
-		const RandomButton = styled.button`
-			font-size: 12px;
-			font-weight: 900;
-			color: #333333;
-			border: 0;
-			background: none;
-			cursor: pointer;
-		`
-
 		return (
 			<Header>
 				<MainTitle startColor={this.props.startColor} endColor={this.props.endColor}>
 					<a href="https://colour.ninja">Colour.Ninja</a>
 				</MainTitle>
-				<AtomIcon size="30" title="Atom Link" onClick={this.handleRandomColors} />
+				<RefreshIcon size="30" title="Atom Link" onClick={this.handleRandomColors} />
 			</Header>
 		)
 	}
